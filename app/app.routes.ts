@@ -14,7 +14,7 @@ const routes: RouterConfig = [
     {
         path: '',
         redirectTo: '/dashboard',
-        pathMatch: 'full'
+        // pathMatch: 'full' //this feature is not available for "@angular/router":  "3.0.0-alpha.8"
     }
 ];
 

@@ -14,7 +14,6 @@ var routes = [
     {
         path: '',
         redirectTo: '/dashboard',
-        pathMatch: 'full'
     }
 ];
 exports.APP_ROUTER_PROVIDERS = [
